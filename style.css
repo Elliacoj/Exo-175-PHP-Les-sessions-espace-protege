@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    background-color: aqua;
+    font-size: 2rem;
+}
+
+h1 {
+    text-align: center;
+    margin: 2% 0;
+    font-style: italic;
+    text-shadow: 5px 5px 5px white;
+    text-decoration-line: underline;
+}
+
+#formulaire {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+
+label, input {
+    display: block;
+    margin-bottom: 2%;
+}
+
+input {
+    margin: 1% auto;
+}
+
+#error, #private {
+    width: 100%;
+
+    text-align: center;
+
+    font-weight: normal;
+}
+
+#error {
+    color: white;
+    background-color: indianred;
+}
